@@ -3,8 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import Carousel from '../../Sharepage/Carousel/Carousel';
 import Course from '../../Sharepage/Course/Course';
 
-import AboutUs from '../AboutUs/AboutUs';
-import Courses from '../Courses/Courses';
+
 
 const Home = () => {
     const courses = useLoaderData()

@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Carousel from '../../Sharepage/Carousel/Carousel';
 import Course from '../../Sharepage/Course/Course';
 
