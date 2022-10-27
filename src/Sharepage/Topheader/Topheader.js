@@ -1,34 +1,39 @@
-// import { GoogleAuthProvider } from 'firebase/auth';
 import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth';
-import React, { useContext } from 'react';
-import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa';
+import React from 'react';
+import { useContext } from 'react';
+import { FaGoogle, FaFacebook, FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import { useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 
-
 const Topheader = () => {
-    const { providerLogin } = useContext(AuthContext);
+    const { providerLogin, verifyEmail } = useContext(AuthContext);
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
 
     const googleProvider = new GoogleAuthProvider()
-    const githubProvider = new GithubAuthProvider()
+    const gitProvider = new GithubAuthProvider()
 
-
-    const handleGoogleSignIn = () => {
-        providerLogin(googleProvider)
+    const handleGithubSignIn = () => {
+        providerLogin(gitProvider)
             .then(result => {
                 const user = result.user;
+                navigate(from, { replace: true });
                 console.log(user);
+
             })
             .catch(error => console.error(error))
 
     }
-    const handleGithubSignIn = () => {
-        providerLogin(githubProvider)
+    const handleGoogleSignIn = () => {
+        providerLogin(googleProvider)
             .then(result => {
                 const user = result.user;
+                verifyEmail();
                 console.log(user);
+                navigate(from, { replace: true });
             })
             .catch(error => console.error(error))
-
     }
     return (
         <div className='navbar justify-between'>

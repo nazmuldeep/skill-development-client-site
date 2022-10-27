@@ -11,6 +11,7 @@ import Apply from "../Pages/Apply/Apply";
 import SingleCourse from "../Sharepage/SingleCourse/SingleCourse";
 import FAQ from "../Pages/FAQ/FAQ";
 import CheckOut from "../Sharepage/CheckOut/CheckOut";
+import PrivateRoute from "./PrivateRoute";
 
 
 export const routes = createBrowserRouter([
@@ -63,7 +64,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/checkout/:id',
-                element: <CheckOut></CheckOut>,
+                element: <PrivateRoute><CheckOut></CheckOut></PrivateRoute>,
                 loader: ({ params }) => fetch(`https://skill-development-courses-server-site.vercel.app/courses/${params.id}`),
             },
         ]

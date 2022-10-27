@@ -20,9 +20,6 @@ const Header = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal p-0">
-
-
-                    {/* <input type="checkbox" className="toggle" checked /> */}
                     <li><Link to={'/home'}>Home</Link></li>
                     <li><Link to={'/courses'}>Courses</Link></li>
                     <li><Link to={'/blog'}>Blog</Link></li>
@@ -47,7 +44,6 @@ const Header = () => {
                                 <FaUser></FaUser> :
                                 <>
                                     <img src={user?.photoURL} />
-                                    <li><Link to={'/apply'}>Log out</Link></li>
                                 </>
 
                             }

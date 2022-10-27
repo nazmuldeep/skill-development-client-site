@@ -9,7 +9,7 @@ const Home = () => {
     const allcourses = courses
     return (
         <div>
-            <h1>courses</h1>
+            <h1></h1>
             <Carousel></Carousel>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 py-28'>
 
