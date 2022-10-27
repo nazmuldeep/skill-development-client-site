@@ -2,7 +2,7 @@ import React from 'react';
 
 const Apply = () => {
     return (
-        <form className='w-3/6 mx-auto my-28 border-2 border-indigo-600 p-6 py-12 rounded-md bg-orange-100 shadow-2xl'>
+        <form className='w-3/6 mx-auto my-28 border-2 border-indigo-300 p-6 py-12 rounded-md bg-orange-100 shadow-2xl'>
             <div className="form-control w-full">
                 <label for="eamil" className="label">
                     <span className="label-text">Your Email</span>

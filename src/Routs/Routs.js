@@ -9,6 +9,8 @@ import Blog from "../Pages/Blog/Blog";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import Apply from "../Pages/Apply/Apply";
 import SingleCourse from "../Sharepage/SingleCourse/SingleCourse";
+import FAQ from "../Pages/FAQ/FAQ";
+import CheckOut from "../Sharepage/CheckOut/CheckOut";
 
 
 export const routes = createBrowserRouter([
@@ -54,6 +56,15 @@ export const routes = createBrowserRouter([
             {
                 path: '/apply',
                 element: <Apply></Apply>
+            },
+            {
+                path: '/faq',
+                element: <FAQ></FAQ>
+            },
+            {
+                path: '/checkout/:id',
+                element: <CheckOut></CheckOut>,
+                loader: ({ params }) => fetch(`https://skill-development-courses-server-site.vercel.app/courses/${params.id}`),
             },
         ]
 

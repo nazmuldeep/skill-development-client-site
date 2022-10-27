@@ -1,12 +1,19 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
+import { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 
-const SingleCourse = () => {
+const CheckOut = () => {
+    const componentRef = useRef();
+    const handlePrint = useReactToPrint({
+        content: () => componentRef.current,
+    });
+
     const [singlecours] = useLoaderData([])
     const { name, image_url, enroll, author, price, id, details } = singlecours;
     return (
         <div className=''>
-            <div className="card w-3/6 my-24 bg-base-100 shadow-xl mx-auto">
+            <div ref={componentRef} className="card w-3/6 my-24 bg-base-100 shadow-xl mx-auto">
                 <figure><img className='w-full ' src={image_url} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">
@@ -32,7 +39,7 @@ const SingleCourse = () => {
                     </div>
                     <div className="card-actions justify-end">
                         <Link to={`/checkout/${id}`}>
-                            <button className="btn btn-primary">Apply now</button>
+                            <button onClick={handlePrint} className="btn btn-primary"> Click for Download</button>
                         </Link>
                     </div>
                 </div>
@@ -41,4 +48,4 @@ const SingleCourse = () => {
     );
 };
 
-export default SingleCourse;
+export default CheckOut;

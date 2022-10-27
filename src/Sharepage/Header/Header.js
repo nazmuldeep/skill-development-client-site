@@ -26,6 +26,7 @@ const Header = () => {
                     <li><Link to={'/home'}>Home</Link></li>
                     <li><Link to={'/courses'}>Courses</Link></li>
                     <li><Link to={'/blog'}>Blog</Link></li>
+                    <li><Link to={'/faq'}>FAQ</Link></li>
                     <li><Link to={'/aboutUs'}>About Us</Link></li>
                     {
                         user?.uid ?
@@ -46,7 +47,7 @@ const Header = () => {
                                 <FaUser></FaUser> :
                                 <>
                                     <img src={user?.photoURL} />
-                                    <li><Link>Log out</Link></li>
+                                    <li><Link to={'/apply'}>Log out</Link></li>
                                 </>
 
                             }

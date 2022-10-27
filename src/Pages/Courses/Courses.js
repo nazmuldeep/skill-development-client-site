@@ -18,8 +18,8 @@ const Courses = () => {
             <div className="">
                 <Carousel></Carousel>
             </div>
-            <div className='flex flex-col-2 py-28'>
-                <div className='grid grid-cols-3 basis-5/6 gap-5'>
+            <div className='md:w-100 lg:flex lg:flex-col-2 py-28 m-auto'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 py-28'>
                     {
                         allcourses.map(cours => <Course
                             key={cours.id}
@@ -41,8 +41,8 @@ const Courses = () => {
                     }
                 </div>
 
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

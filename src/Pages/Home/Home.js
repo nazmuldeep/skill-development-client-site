@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <h1>courses</h1>
             <Carousel></Carousel>
-            <div className='grid grid-cols-3 gap-5 py-28'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 py-28'>
 
                 {
                     allcourses.map(cours => <Course
