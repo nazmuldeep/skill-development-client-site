@@ -19,7 +19,7 @@ const SingleCourse = () => {
 
                         <div>
 
-                            <div className="justify-start"><small>Modaretor Name {author.name}</small></div>
+                            <div className="justify-start"><small>Faculty Name {author.name}</small></div>
                             <div className="justify-end"><small>Publish Date {author.published_date}</small></div>
                         </div>
                     </div>
@@ -27,8 +27,8 @@ const SingleCourse = () => {
                         <p>{details}</p>
                     </div>
                     <div className="card-actions justify-between">
-                        <div className="badge badge-outline bg-cyan-400 py-5 px-2">Price $ {price}</div>
-                        <div className="badge badge-outline bg-fuchsia-500 py-5 px-2">Student Enroll {enroll}</div>
+                        <div className="badge badge-outline bg-blue-700 py-5 px-2">Price $ {price}</div>
+                        <div className="badge badge-outline bg-orange-700 py-5 px-2">Student Enroll {enroll}</div>
                     </div>
                     <div className="card-actions justify-end">
                         <Link to={`/singlecourse/${id}`}>

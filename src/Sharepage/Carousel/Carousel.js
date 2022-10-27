@@ -3,21 +3,21 @@ import React from 'react';
 const Carousel = () => {
     return (
         <>
-            <div className="bg-gray-200 ">
-                <div className="py-14 px-3">
+            <div className="bg-gray-300 ">
+                <div className="py-14 px-2">
                     <div className="lg:max-w-[1440px] relative inset-0 md:max-w-[744px] max-w-[375px] mx-auto bg-white lg:px-20 md:px-6 px-4 lg:py-20 md:py-12 py-9">
                         <div className="relative">
                             <img
-                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20158.png"
+                                src="https://media.istockphoto.com/photos/woman-designer-working-from-home-having-meeting-online-student-girl-picture-id1365149156?b=1&k=20&m=1365149156&s=170667a&w=0&h=HiJg7DVs6IHfQpEy-St8HR3kZQSV-vtxaflos7t0eG8="
                                 className="w-full object-cover lg:h-[330px] lg:block md:hidden sm:hidden"
                             />
                             <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0" />
                             <img
-                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sofa.png"
+                                src="https://media.istockphoto.com/photos/woman-designer-working-from-home-having-meeting-online-student-girl-picture-id1365149156?b=1&k=20&m=1365149156&s=170667a&w=0&h=HiJg7DVs6IHfQpEy-St8HR3kZQSV-vtxaflos7t0eG8="
                                 className="lg:hidden md:block sm:hidden"
                             />
                             <img
-                                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/image%20159.png"
+                                src="https://media.istockphoto.com/photos/woman-designer-working-from-home-having-meeting-online-student-girl-picture-id1365149156?b=1&k=20&m=1365149156&s=170667a&w=0&h=HiJg7DVs6IHfQpEy-St8HR3kZQSV-vtxaflos7t0eG8="
                                 className="lg:hidden md:hidden block"
                             />
                             <div className="absolute lg:bottom-8 md:bottom-3 bottom-0 lg:px-7 md:px-10 px-4 py-4">
@@ -25,7 +25,7 @@ const Carousel = () => {
 
                                 </p>
                                 <p className="text-base font-medium leading-none text-gray-800 bg-white px-2 py-2 max-w-[142px] mt-3 text-center">
-                                    50% discount !!!
+                                    Get up to 40% discount !!!
                                 </p>
                                 <div className="flex gap-3 pt-4">
                                     <svg

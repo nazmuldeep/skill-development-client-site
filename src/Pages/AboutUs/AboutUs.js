@@ -5,13 +5,13 @@ const AboutUs = () => {
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
-                    <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">We are here to make great design accessible and delightfull for everyone</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire,</p>
+                    <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">Improving lives through learning </h2>
+                    <p className="font-normal text-base leading-6 text-gray-300 mt-6">Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge. </p>
                 </div>
                 <div className="w-full lg:w-6/12">
-                    <img className="lg:block sm:hidden w-full" src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png" alt="people discussing on board" />
-                    <img className="lg:hidden md:block sm:hidden w-full" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
-                    <img className="sm:hidden block w-full" src="https://i.ibb.co/Jxhpxh6/Rectangle-122.png" alt="people discussing on board" />
+                    <img className="lg:block sm:hidden w-full" src="https://cdn.sanity.io/images/nosafynr/gomo-production/dc2a0c1a23808bb3a1695c16630945870750d63f-800x450.jpg" alt="people discussing on board" />
+                    <img className="lg:hidden md:block sm:hidden w-full" src="https://cdn.sanity.io/images/nosafynr/gomo-production/dc2a0c1a23808bb3a1695c16630945870750d63f-800x450.jpg" alt="people discussing on board" />
+                    <img className="sm:hidden block w-full" src="https://cdn.sanity.io/images/nosafynr/gomo-production/dc2a0c1a23808bb3a1695c16630945870750d63f-800x450.jpg" alt="people discussing on board" />
                 </div>
             </div>
 
@@ -46,16 +46,16 @@ const AboutUs = () => {
             </div>
             <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 <div>
-                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-200 mt-6">Founder</p>
+                    <p className="font-normal text-base leading-6 text-gray-400 mt-6">Skill Development, Inc. is a global destination for teaching and learning online. It was founded in May 2020 by Md Nazmul Ahamed Deep, Supantha bappy, and Ahanab shakil. </p>
                 </div>
                 <div>
-                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">50M montly enrichments</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-100 mt-6">50M montly enrichments</p>
+                    <p className="font-normal text-base leading-6 text-gray-400 mt-6">We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the center of their strategies.</p>
                 </div>
                 <div className="sm:block hidden">
-                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">400k User</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-200 mt-6">600k User</p>
+                    <p className="font-normal text-base leading-6 text-gray-400 mt-6">Skill development fit us like a glove. Their team curates fresh, up-to-date courses from their marketplace and makes them available to customers..</p>
                 </div>
             </div>
             <div className="sm:hidden block relative mt-8">
@@ -79,9 +79,11 @@ const AboutUs = () => {
 
             <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
                 <div className="w-full lg:w-6/12">
-                    <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Mission</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
+                    <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-200">Our Mission</h2>
+                    <p className="font-normal text-base leading-6 text-gray-400 mt-6 w-full lg:w-10/12 xl:w-9/12">Skill development’s mission is to provide flexible, effective skill development to empower organizations and individuals.
+
+                        Skill development Business helps companies achieve critical business outcomes and stay competitive by offering engaging on-demand, immersive, and cohort-based learning. With our integrated learning solutions and strategic partnership, we equip companies with the tools to build a future-ready workforce, increase employee engagement, and achieve business outcomes. And we tailor learning to our customers’ needs, so they can deliver the right learning experience to the right people in the right format.Our entire workforce is now taking a more proactive approach to learning, and Skill development Business has played a significant role in this. The results have been fantastic. Thanks to greater upskilling opportunities, we now have several people in senior positions across the company who may not have had those opportunities through our old program.</p>
+
                 </div>
                 <div className="w-full lg:w-6/12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
@@ -95,8 +97,10 @@ const AboutUs = () => {
                                 </svg>
                             </div>
                             <div className="">
-                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Team</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-200">Team</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-400">Growing up in  Bangladesh , Skill development founder Md Nazmul Ahamed Deep had few educational opportunities — until he got a computer. Fueled by his dream to compete in mathematics, he used the internet to learn his way to a silver medal in the  Math Olympiad.
+
+                                    After learning online changed his life, Suphantha bappy with co-founders Ahanab Shakil to achieve a common goal: to make quality education accessible to all.</p>
                             </div>
                         </div>
 
@@ -111,8 +115,8 @@ const AboutUs = () => {
                                 </svg>
                             </div>
                             <div className="">
-                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Board</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-200">Board</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-400">All over the world in our connect our main board in Bangladesh and also USa-califonia have sub board in our organizations</p>
                             </div>
                         </div>
 
@@ -125,8 +129,8 @@ const AboutUs = () => {
                                 </svg>
                             </div>
                             <div className="">
-                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Press</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-200">See our research</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-400">We’re committed to improving lives through learning. Dig into our original research to learn about the forces that are shaping the modern workplace.</p>
                             </div>
                         </div>
                     </div>

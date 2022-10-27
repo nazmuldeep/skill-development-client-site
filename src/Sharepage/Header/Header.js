@@ -16,10 +16,13 @@ const Header = () => {
 
         <div className="navbar bg-base-100">
             <div className="flex-1">
-                <Link to={'/home'} className="btn btn-ghost normal-case text-xl">Learn Easy</Link>
+                <Link to={'/home'} className="btn btn-ghost normal-case text-xl">Skill Development</Link>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal p-0">
+
+
+                    {/* <input type="checkbox" className="toggle" checked /> */}
                     <li><Link to={'/home'}>Home</Link></li>
                     <li><Link to={'/courses'}>Courses</Link></li>
                     <li><Link to={'/blog'}>Blog</Link></li>

@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <h1>courses</h1>
-            {/* <Carousel></Carousel> */}
+            <Carousel></Carousel>
             <div className='grid grid-cols-3 gap-5 py-28'>
 
                 {
@@ -20,7 +20,7 @@ const Home = () => {
                     ></Course>)
                 }
             </div>
-            <AboutUs></AboutUs>
+            {/* <AboutUs></AboutUs> */}
 
         </div>
     );
