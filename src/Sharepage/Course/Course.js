@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Course = ({ cours }) => {
-    const { id, image_url, name, details, price, rating, author, enroll } = cours
+    const { id, image_url, name, details, price, author, enroll } = cours
     return (
         <div className='py-2'>
             <div className="card w-96 bg-base-100 shadow-xl grid-rows-3 ">
@@ -29,8 +29,8 @@ const Course = ({ cours }) => {
                         }
                     </div>
                     <div className="card-actions justify-between">
-                        <div className="badge badge-outline  bg-blue-700 py-5 px-2">Price $ {price}</div>
-                        <div className="badge badge-outline bg-orange-700 py-5 px-2">Student Enroll {enroll}</div>
+                        <div className="badge badge-outline text-white  bg-pink-500 py-5 px-2">Price $ {price}</div>
+                        <div className="badge badge-outline text-white bg-green-500 py-5 px-2">Student Enroll {enroll}</div>
                     </div>
                     <div className="card-actions justify-end">
                         <Link to={`/singlecourse/${id}`}>

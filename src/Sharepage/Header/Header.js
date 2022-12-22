@@ -9,7 +9,7 @@ const Header = () => {
     const HandleLogout = () => {
         logOut()
             .then()
-            .cath(error => console.log(error))
+            .catch(error => console.log(error))
 
     }
     return (
@@ -43,7 +43,7 @@ const Header = () => {
                             {!user?.photoURL ?
                                 <FaUser></FaUser> :
                                 <>
-                                    <img src={user?.photoURL} />
+                                    <img src={user?.photoURL} alt='glass' />
                                 </>
 
                             }

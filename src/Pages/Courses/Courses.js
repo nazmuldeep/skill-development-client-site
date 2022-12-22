@@ -19,7 +19,7 @@ const Courses = () => {
                 <Carousel></Carousel>
             </div>
             <div className='md:w-100 lg:flex lg:flex-col-2 py-28 m-auto'>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 py-28'>
+                <div className='mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 py-28'>
                     {
                         allcourses.map(cours => <Course
                             key={cours.id}
@@ -27,7 +27,6 @@ const Courses = () => {
                         ></Course>)
                     }
                 </div>
-
 
                 <div className="">
                     <h1 className='text-5xl mb-6'>More Courses</h1>

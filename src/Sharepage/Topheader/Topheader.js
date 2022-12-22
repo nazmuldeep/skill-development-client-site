@@ -47,15 +47,15 @@ const Topheader = () => {
                 <button onClick={handleGithubSignIn} className='btn btn-outline btn-drak mx-2 py-0'><FaGithub className='mr-2'></FaGithub>  Login With Github</button>
 
                 <>
-                    <label for="AcceptConditions" class="relative h-8 w-14 cursor-pointer">
-                        <input type="checkbox" id="AcceptConditions" class="peer sr-only" />
+                    <label htmlFor="AcceptConditions" className="relative h-8 w-14 cursor-pointer">
+                        <input type="checkbox" id="AcceptConditions" className="peer sr-only" />
 
                         <span
-                            class="absolute inset-0 rounded-full bg-gray-400 transition peer-checked:bg-green-400"
+                            className="absolute inset-0 rounded-full bg-gray-400 transition peer-checked:bg-green-400"
                         ></span>
 
                         <span
-                            class="absolute inset-0 m-1 h-6 w-6 rounded-full bg-white transition peer-checked:translate-x-6"
+                            className="absolute inset-0 m-1 h-6 w-6 rounded-full bg-white transition peer-checked:translate-x-6"
                         ></span>
                     </label>
                 </>
